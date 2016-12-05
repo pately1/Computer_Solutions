@@ -2,45 +2,45 @@
 <div class="row">
     <div class="col-lg-12">
         <h2>Services</h2>
-        <div class="row service">
+        <div class="row service" ng-repeat="service in serviceData">
             <div class="col-md-2">
-                <img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">
+                <img ng-src="{{service.imageUrl}}">
             </div>
             <div class="col-md-10">
-                <h3>Hardware Repair</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>
+                <h3>{{service.name}}</h3>
+                <p>{{service.description}}</p>
                 <a href="#/contact" class="btn btn-primary">Contact Us!</a>
             </div>
         </div>
-        <div class="row service">
-            <div class="col-md-2">
-                <img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">
-            </div>
-            <div class="col-md-10">
-                <h3>Hardware Repair</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>
-                <a href="#/contact" class="btn btn-primary">Contact Us!</a>
-            </div>
-        </div>
-        <div class="row service">
-            <div class="col-md-2">
-                <img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">
-            </div>
-            <div class="col-md-10">
-                <h3>Hardware Repair</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>
-                <a href="#/contact" class="btn btn-primary">Contact Us!</a>
-            </div>
-        </div>
-        <div class="row service">
-            <div class="col-md-2">
-                <img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">
-            </div>
-            <div class="col-md-10">
-                <h3>Hardware Repair</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>
-                <a href="#/contact" class="btn btn-primary">Contact Us!</a>
-            </div>
-        </div>
+        <!--<div class="row service">-->
+            <!--<div class="col-md-2">-->
+                <!--<img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">-->
+            <!--</div>-->
+            <!--<div class="col-md-10">-->
+                <!--<h3>Virus Removal</h3>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>-->
+                <!--<a href="#/contact" class="btn btn-primary">Contact Us!</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row service">-->
+            <!--<div class="col-md-2">-->
+                <!--<img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">-->
+            <!--</div>-->
+            <!--<div class="col-md-10">-->
+                <!--<h3>System Tune up</h3>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>-->
+                <!--<a href="#/contact" class="btn btn-primary">Contact Us!</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row service">-->
+            <!--<div class="col-md-2">-->
+                <!--<img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png">-->
+            <!--</div>-->
+            <!--<div class="col-md-10">-->
+                <!--<h3>Hardware Repair</h3>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.</p>-->
+                <!--<a href="#/contact" class="btn btn-primary">Contact Us!</a>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
 </div>
