@@ -4,12 +4,12 @@
         <h2>Contact</h2>
         <p>Please email support@computersolutions.com</p>
         <h3>Locations</h3>
-        <ul class="location">
-            <li>Fake Company</li>
-            <li>123 Fake address</li>
-            <li>Fake city</li>
-            <li>Fake state, 12345</li>
-            <li>123-456-7890</li>
+        <ul class="location" ng-repeat="location in locations">
+            <li>{{location.name}}</li>
+            <li>{{location.street_address}}</li>
+            <li>{{location.city}}</li>
+            <li>{{location.state}}, {{location.zip}}</li>
+            <li>{{location.phone}}</li>
         </ul>
     </div>
 </div>

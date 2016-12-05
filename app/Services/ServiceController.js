@@ -6,6 +6,8 @@
 
     angular.module('Computer')
         .controller('ServiceCtrl', ['$scope','getServices' , function ($scope, getServices) {
+            console.log("In Services Controller");
+
             getServices.getData().then(
                 function (response) {
                     $scope.serviceData = response;

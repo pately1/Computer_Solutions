@@ -6,6 +6,6 @@
 
     angular.module('Computer')
         .controller('AboutCtrl', ['$scope', function ($scope) {
-
+            console.log("In About Controller");
         }]);
 })();
