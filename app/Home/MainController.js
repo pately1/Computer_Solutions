@@ -5,7 +5,15 @@
     'use strict';
 
     angular.module('Computer')
-        .controller('MainCtrl', function () {
+        .controller('MainCtrl',['$scope', 'getServices', function ($scope, getServices) {
             console.log('Main Controller');
-        })
+
+            getServices.getData().then(
+                function (response) {
+                    $scope.service_data = response;
+                }, function (err) {
+                    console.log(err);
+                }
+            );
+        }]);
 })();
