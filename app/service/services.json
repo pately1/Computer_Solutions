@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hardware Repair",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.",
+    "imageUrl": "http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Virus Removal",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.",
+    "imageUrl": "http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "System Tune Up",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus sagittis odio ac efficitur. Curabitur mauris risus, facilisis vitae arcu ac, scelerisque efficitur eros. Vestibulum vehicula volutpat tortor in eleifend. Etiam lacinia magna non lacinia tincidunt. Duis metus odio, commodo nec sagittis interdum, facilisis id massa. Mauris mollis ex vel nunc auctor tincidunt. Aliquam erat volutpat.",
+    "imageUrl": "http://icons.iconarchive.com/icons/martz90/circle-addon2/512/computer-icon.png"
+  }
+]
