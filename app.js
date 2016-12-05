@@ -13,15 +13,15 @@
                 })
                 .when('/about', {
                     templateUrl:'app/About/about.html',
-                    controller: 'MainCtrl'
+                    controller: 'AboutCtrl'
                 })
                 .when('/services', {
                     templateUrl:'app/Services/services.html',
-                    controller: 'MainCtrl'
+                    controller: 'ServiceCtrl'
                 })
                 .when('/contact', {
                     templateUrl:'app/Contact/contact.html',
-                    controller: 'MainCtrl'
+                    controller: 'ContactCtrl'
                 })
                 .otherwise({redirectTo:'/main'})
         }])
