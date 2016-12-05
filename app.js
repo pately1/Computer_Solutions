@@ -11,6 +11,18 @@
                     templateUrl:'app/Home/home.html',
                     controller: 'MainCtrl'
                 })
-                .otherwise('/main')
+                .when('/about', {
+                    templateUrl:'app/About/about.html',
+                    controller: 'MainCtrl'
+                })
+                .when('/services', {
+                    templateUrl:'app/Services/services.html',
+                    controller: 'MainCtrl'
+                })
+                .when('/contact', {
+                    templateUrl:'app/Contact/contact.html',
+                    controller: 'MainCtrl'
+                })
+                .otherwise({redirectTo:'/main'})
         }])
 })();
